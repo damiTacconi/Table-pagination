@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="config">
+      <div class="config-order">
+        <label for="">Field</label>
+        <select name="" id="field"> </select>
+        <label for="">Option</label>
+        <select name="" id="order">
+          <option value="ASC" selected>ASC</option>
+          <option value="DESC">DESC</option>
+        </select>
+      </div>
+      <button id="orderSearch">
+        SEARCH
+      </button>
+    </div>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>DNI</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <ul class="" id="pagination"></ul>
+  </div>
+  <script src="./js/pagination.js" type="module"></script>
+  <script src="./js/mockData.js" type="module"></script>
+  <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

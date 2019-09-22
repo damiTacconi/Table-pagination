@@ -1,0 +1,89 @@
+body{
+    font-family: sans-serif;
+}
+ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+
+button{
+    border: none;
+    background: rgb(199, 199, 199);
+
+}
+#pagination li button{
+    width: 3rem;
+    height: 2.8rem;
+}
+
+#pagination li:nth-child(1) button{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#pagination li:last-child button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+tbody tr:nth-child(odd){
+    background:#ddd;
+    color: #000;
+}
+td,th{
+    padding:10px;
+}
+th{
+    background: rgb(29, 29, 29);
+    color:#eee;
+}
+.btn{
+    color:#000;
+}
+
+.btn-active{
+    background: rgb(43, 103, 182);
+    color: #eee;
+
+}
+
+tbody tr:hover{
+    background: rgb(43, 43, 43);
+    color:#eee;
+}
+
+select{
+    padding:.3rem;
+}
+
+table{
+    width: 650px;
+}
+#orderSearch{
+    padding:10px;
+    border:none;
+    color:#eee;
+    background:rgb(79, 98, 206);
+}
+
+.container{
+    padding:20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.config{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#pagination{
+    position: relative;
+    bottom:0;
+}
+
